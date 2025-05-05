@@ -34,7 +34,7 @@ const Hero = () => {
 			className=" w-full grid mx-auto place-items-center py-45 px-12 gap-1 bg-zinc-100 md:gap-6 lg:gap-6 min-w-[320px]">
 			<motion.h1
 				variants={item}
-				className="font-times font-normal text-[2.7rem] text-center flex gap-2.5 mx-auto items-center justify-center sm:text-6xl md:text-7xl lg:text-8xl">
+				className="font-times font-normal text-[2rem] text-center flex gap-2.5 mx-auto items-center justify-center sm:text-6xl md:text-7xl lg:text-8xl">
 				I'm <span className="italic text-zinc-500 md:ml-2"> Ray</span>{' '}
 				<img
 					className="rounded-full w-14 h-10 object-cover border-3 border-zinc-950 shadow-md md:w-25 lg:w-25 md:h-18 lg:h-18"
@@ -45,7 +45,7 @@ const Hero = () => {
 			</motion.h1>
 			<motion.h1
 				variants={item}
-				className="font-times font-normal text-[2.7rem] text-center flex gap-2 mx-auto items-center justify-center sm:text-6xl md:text-7xl lg:text-8xl">
+				className="font-times font-normal text-[2rem] text-center flex gap-2 mx-auto items-center justify-center sm:text-6xl md:text-7xl lg:text-8xl">
 				a Graphic{' '}
 				<img
 					className="rounded-full w-14 h-10 object-cover border-3 border-zinc-950 shadow-md md:w-25 lg:w-25 md:h-18 lg:h-18 object-left"
@@ -56,7 +56,7 @@ const Hero = () => {
 			</motion.h1>
 			<motion.h1
 				variants={item}
-				className="font-times font-normal text-[2.7rem] text-center flex gap-2 mx-auto items-center justify-center sm:text-6xl md:text-7xl lg:text-8xl">
+				className="font-times font-normal text-[2rem] text-center flex gap-2 mx-auto items-center justify-center sm:text-6xl md:text-7xl lg:text-8xl">
 				based in <span className=" md:ml-2">Manila</span>{' '}
 				<img
 					className="rounded-full w-14 h-10 object-fit border-3 border-zinc-950 shadow-md md:w-25 lg:w-25 md:h-18 lg:h-18"

@@ -132,7 +132,7 @@
 
 @media screen and (width >= 64rem) {
 	.profile {
-		background-image: url('./assets/images/ribbon.svg');
+		background-image: url('/public/images/ribbon.svg');
 		background-repeat: no-repeat;
 		background-size: 134rem;
 		background-position: -4rem 12rem;
