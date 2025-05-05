@@ -38,16 +38,14 @@ const Contact = () => {
 							Design Portfolio
 						</h1>
 						<div className="flex flex-col">
-							<h1 className="font-times font-semibold text-xl mb-2">
-								Contact Info
-							</h1>
-							<p className="inter text-zinc-500 text-base font-normal">
+							<h1 className="font-times font-semibold text-xl">Contact Info</h1>
+							<p className="font-times text-zinc-700 text-lg font-normal">
 								Phone: 123-456-7890
 							</p>
-							<p className="inter text-zinc-500 text-base font-normal">
+							<p className="font-times text-zinc-700 text-lg font-normal">
 								Email: johndoe@gmail.com
 							</p>
-							<p className="inter text-zinc-500 text-base font-normal">
+							<p className="font-times text-zinc-700 text-lg font-normal">
 								Address: 123 Main St, City, State, Zip
 							</p>
 						</div>

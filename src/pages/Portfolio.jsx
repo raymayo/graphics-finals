@@ -79,7 +79,7 @@ const Portfolio = () => {
 				Portfolio
 			</h1>
 			<ul className="flex text-center font-times gap-8 text-xl">
-				<li className="font-bold">All</li>
+				<li className="underline underline-offset-8">All</li>
 				<li>Branding</li>
 				<li>Mockups</li>
 				<li>UI Kits</li>
