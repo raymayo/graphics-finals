@@ -74,48 +74,60 @@ const Portfolio = () => {
 		prevArrow: <SamplePrevArrow />,
 	};
 	return (
-		<div className="bg-zinc-950 text-zinc-100 w-full flex flex-col items-center justify-center">
-			<h1 className="font-times font-semibold text-4xl text-center py-10">
-				Portfolio
-			</h1>
-			<ul className="flex text-center font-times gap-8 text-xl">
-				<li className="underline underline-offset-8">All</li>
-				<li>Branding</li>
-				<li>Mockups</li>
-				<li>UI Kits</li>
-				<li>Web Design</li>
-				<li>Photography</li>
-			</ul>
+		<div className="bg-zinc-950 text-zinc-100 w-full flex flex-col items-center justify-center px-12 min-w-[530px]">
+			<div className="w-full max-w-7xl flex flex-col items-center justify-center mx-auto ">
+				<h1 className="font-times font-semibold text-2xl sm:text-3xl lg:text-4xl  text-center py-10">
+					Portfolio
+				</h1>
+				<ul className="flex text-center font-times gap-8 text-base md:text-lg lg:text-xl">
+					<li className="underline underline-offset-8">All</li>
+					<li>Branding</li>
+					<li>Mockups</li>
+					<li>Web Design</li>
+				</ul>
 
-			<div className="slider-container w-full py-20 max-w-2/3">
-				<Slider {...settings}>
-					<div className="w-full aspect-retro px-1.5">
-						<PortfolioCard
-							image={Daft}
-							title="Daft Punk"
-							type="Graphic Design"
-						/>
-					</div>
-					<div className="w-full aspect-retro px-1.5">
-						<PortfolioCard image={Porsche} title="RWB" type="Graphic Design" />
-					</div>
-					<div className="w-full aspect-retro px-1.5">
-						<PortfolioCard
-							image={Kdot}
-							title="King Kunta"
-							type="Graphic Design"
-						/>
-					</div>
-					<div className="w-full aspect-retro px-1.5">
-						<PortfolioCard image={Rocky} title="A$AP" type="Graphic Design" />
-					</div>
-					<div className="w-full aspect-retro px-1.5">
-						<PortfolioCard image={Val2} title="Cupids" type="Graphic Design" />
-					</div>
-					<div className="w-full aspect-retro px-1.5">
-						<PortfolioCard image={Val1} title="Hearts" type="Graphic Design" />
-					</div>
-				</Slider>
+				<div className="slider-container w-full max-w-[22rem] sm:max-w-[30rem] md:max-w-[38rem] lg:max-w-[55rem] xl:max-w-6xl py-20 ">
+					<Slider {...settings}>
+						<div className="w-full aspect-retro px-1.5">
+							<PortfolioCard
+								image={Daft}
+								title="Daft Punk"
+								type="Graphic Design"
+							/>
+						</div>
+						<div className="w-full aspect-retro px-1.5">
+							<PortfolioCard
+								image={Porsche}
+								title="RWB"
+								type="Graphic Design"
+							/>
+						</div>
+						<div className="w-full aspect-retro px-1.5">
+							<PortfolioCard
+								image={Kdot}
+								title="King Kunta"
+								type="Graphic Design"
+							/>
+						</div>
+						<div className="w-full aspect-retro px-1.5">
+							<PortfolioCard image={Rocky} title="A$AP" type="Graphic Design" />
+						</div>
+						<div className="w-full aspect-retro px-1.5">
+							<PortfolioCard
+								image={Val2}
+								title="Cupids"
+								type="Graphic Design"
+							/>
+						</div>
+						<div className="w-full aspect-retro px-1.5">
+							<PortfolioCard
+								image={Val1}
+								title="Hearts"
+								type="Graphic Design"
+							/>
+						</div>
+					</Slider>
+				</div>
 			</div>
 		</div>
 	);

@@ -10,8 +10,10 @@ const PortfolioCard = ({ image, title, type }) => {
 			/>
 			<div className="flex justify-between py-4">
 				<div className="flex flex-col">
-					<h1 className="font-times text-2xl">{title}</h1>
-					<p className="inter text-sm font-light text-zinc-400">{type}</p>
+					<h1 className="font-times text-lg lg:text-2xl">{title}</h1>
+					<p className="inter text-xs lg:text-sm font-light text-zinc-400">
+						{type}
+					</p>
 				</div>
 				{/* <button className="border rounded-full py-3 px-6 cursor-pointer font-times">
 					View

@@ -2,16 +2,16 @@ import React from 'react';
 
 const Contact = () => {
 	return (
-		<div className="w-full bg-zinc-100 mx-auto flex flex-col items-center justify-center">
-			<div className="w-full max-w-2/3 grid gap-20 py-20">
-				<h1 className="font-times text-8xl">
+		<div className="w-full bg-zinc-100 mx-auto flex flex-col items-center justify-center min-w-[320px]">
+			<div className="w-full max-w-7xl grid gap-20 py-20 px-10">
+				<h1 className="font-times text-7xl lg:text-8xl">
 					Get in <span className="italic">touch</span>
 				</h1>
 				<div className="flex flex-col gap-6">
-					<h1 className="inter text-2xl font-semibold">
+					<h1 className="inter text-lg lg:text-2xl font-semibold">
 						LEAVE AN APPLICATION FOR AN APPOINTMENT
 					</h1>
-					<form className="flex gap-12">
+					<form className="flex flex-col lg:flex-row gap-12">
 						<input
 							className="font-times text-xl border-b w-full py-2 active: outline-0"
 							type="text"
@@ -32,9 +32,9 @@ const Contact = () => {
 						Submit
 					</button>
 				</div>
-				<div className="flex justify-between items-start">
-					<div className="flex">
-						<h1 className="font-times text-6xl max-w-[350px]">
+				<div className="flex flex-col lg:flex-row  justify-between items-start gap-4">
+					<div className="flex flex-col gap-4 lg:flex-row">
+						<h1 className="font-times text-6xl lg:text-6xl max-w-[350px]">
 							Design Portfolio
 						</h1>
 						<div className="flex flex-col">
@@ -50,7 +50,7 @@ const Contact = () => {
 							</p>
 						</div>
 					</div>
-					<h1 className="font-times text-xl self-end">
+					<h1 className="font-times text-xl lg:self-end">
 						© Design Portfolio 2025
 					</h1>
 				</div>

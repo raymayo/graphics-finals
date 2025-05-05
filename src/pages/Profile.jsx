@@ -4,12 +4,12 @@ import { Tangent, Palette, PanelsTopLeft, PenTool } from 'lucide-react';
 
 const Profile = () => {
 	return (
-		<div className="profile w-full h-full pt-40 pb-20 inter">
-			<main className="w-full max-w-2/3 mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 ">
-				<div className="w-full flex items-center justify-center">
-					<div className="relative border-[20px] border-zinc-900 min-w-[18.75rem] h-[25rem] ">
+		<div className="profile w-full h-full py-30 inter min-w-[320px] px-6">
+			<main className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+				<div className="w-full flex items-center justify-start lg:justify-center">
+					<div className="relative border-[20px] border-zinc-900 min-w-[14.75rem] h-[21rem] lg:min-w-[18.75rem] lg:h-[25rem]">
 						<img
-							className="absolute min-w-[18.75rem] h-[25rem] -top-18 left-10 object-cover shadow-lg"
+							className="absolute min-w-[14.75rem] h-[21rem] lg:min-w-[18.75rem] lg:h-[25rem] -top-18 left-10 object-cover shadow-lg"
 							src="https://i.pinimg.com/736x/7a/c6/79/7ac679ad113372f53fba6dca810ffd70.jpg"
 							alt=""
 						/>
@@ -20,7 +20,7 @@ const Profile = () => {
 					<h1 className="text-2xl font-semibold w-full max-w-4/6 text-wrap font-times">
 						Full-Stack Web Developer & Computer Science Student
 					</h1>
-					<p className="text-lg text-zinc-700 text-pretty">
+					<p className="text-md md:text-lg lg:text-xl text-zinc-500 text-pretty">
 						I specialize in building responsive, scalable, and user-centric web
 						applications using modern tools like React, Node.js, and MongoDB.
 						With a strong foundation in computer science and a passion for
@@ -32,8 +32,8 @@ const Profile = () => {
 					</p>
 				</div>
 			</main>
-			<div className="flex flex-wrap w-full max-w-2/3 mx-auto py-20 ">
-				<div className=" w-full flex gap-8">
+			<div className="flex flex-wrap w-full max-w-7xl mx-auto py-20">
+				<div className=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 					<InfoCard
 						icon={<Tangent size={40} />}
 						title="Graphic Design"
@@ -44,6 +44,7 @@ const Profile = () => {
 						title="UI/UX Design"
 						subtitle="Transforming ideas into visuals that speak."
 					/>
+
 					<InfoCard
 						icon={<PanelsTopLeft size={40} />}
 						title="Brand Identity"
