@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-SemiLight.woff2') format('woff2');
+
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-LightItalic.woff2') format('woff2');
+
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-Bold.woff2') format('woff2');
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-BoldItalic.woff2') format('woff2');
+
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-SemiBoldItalic.woff2') format('woff2');
+
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-SemiLightItalic.woff2') format('woff2');
+
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-SemiBold.woff2') format('woff2');
+
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-ExtraLightItalic.woff2') format('woff2');
+
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-ExtraLight.woff2') format('woff2');
+
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-ExtraBold.woff2') format('woff2');
+
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-ExtraBoldItalic.woff2') format('woff2');
+
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Times Now';
+	src: url('./TimesNow-Light.woff2') format('woff2');
+
+	font-weight: 300;
+	font-style: normal;
+}
