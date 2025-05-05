@@ -11,7 +11,9 @@ function App() {
 		<div className="w-screen min-h-screen flex flex-col items-center justify-start mx-auto">
 			<Nav />
 			<Hero />
-			<Profile />
+			<div className="pattern w-full bg-white">
+				<Profile />
+			</div>
 			<Portfolio />
 			<Contact />
 		</div>

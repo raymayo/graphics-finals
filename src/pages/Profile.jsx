@@ -4,7 +4,7 @@ import { Tangent, Palette, PanelsTopLeft, PenTool } from 'lucide-react';
 
 const Profile = () => {
 	return (
-		<div className="profile w-full bg-white h-full pt-40 pb-20 inter">
+		<div className="profile w-full h-full pt-40 pb-20 inter">
 			<main className="w-full max-w-2/3 mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 ">
 				<div className="w-full flex items-center justify-center">
 					<div className="relative border-[20px] border-zinc-900 min-w-[18.75rem] h-[25rem] ">
