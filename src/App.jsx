@@ -8,13 +8,13 @@ import './assets/fonts/fonts.css';
 import { useState, useEffect } from 'react';
 
 const imageUrls = [
-	'/public/images/daft_final.png',
-	'/public/images/kendrick_final.png',
-	'/public/images/porsche_final.png',
-	'/public/images/proj.png',
-	'/public/images/ribbon.svg',
-	'/public/images/rocky_final.png',
-	'/public/images/valen_2.png',
+	'/images/daft_final.png',
+	'/images/kendrick_final.png',
+	'/images/porsche_final.png',
+	'/images/proj.png',
+	'/images/ribbon.svg',
+	'/images/rocky_final.png',
+	'/images/valen_2.png',
 
 	'https://i.pinimg.com/736x/7a/c6/79/7ac679ad113372f53fba6dca810ffd70.jpg',
 	'https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
